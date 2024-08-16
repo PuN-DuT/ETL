@@ -1,3 +1,4 @@
+![Pipline Image](png/etl_pipline.png)
 # ETL Pipeline with Apache Airflow and Docker
 
 This project demonstrates an ETL (Extract, Transform, Load) pipeline using Apache Airflow, containerized with Docker. The pipeline consists of tasks to extract data, load it into an S3-compatible storage provided by MinIO, transfer it to a PostgreSQL database, and return aggregated data back to the S3 storage.## Table of Contents
@@ -104,7 +105,7 @@ To set up alerts for task failures via a Telegram chatbot, follow these steps:
         CHAT_ID=your_chat_id
         ```
 In case of task failures, alerts are sent via the configured Telegram chatbot. The `alert.jpg` image is used for these notifications.
-
+![Alert Image](png/alert_telegram.png)
 ## Services
 
 - **Airflow**: Used as the workflow orchestration tool to manage and schedule the ETL pipeline.
