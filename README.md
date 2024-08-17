@@ -1,7 +1,8 @@
 ![Pipline Image](png/etl_pipline.png)
 # ETL Pipeline with Apache Airflow and Docker
 
-This project demonstrates an ETL (Extract, Transform, Load) pipeline using Apache Airflow, containerized with Docker. The pipeline consists of tasks to extract data, load it into an S3-compatible storage provided by MinIO, transfer it to a PostgreSQL database, and return aggregated data back to the S3 storage.## Table of Contents
+This project demonstrates an ETL (Extract, Transform, Load) pipeline using Apache Airflow, containerized with Docker. The pipeline consists of tasks to extract data, load it into an S3-compatible storage provided by MinIO, transfer it to a PostgreSQL database, and return aggregated data back to the S3 storage.
+## Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
