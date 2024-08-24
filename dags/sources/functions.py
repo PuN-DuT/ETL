@@ -118,7 +118,7 @@ def send_message(context):
 
     config = load_config('/opt/airflow/dags/sources/.env')
     token = config.tg_bot.token
-    chat_id = config.tg_bot.admin
+    chat_id = config.tg_bot.chat_id
 
     bot = TeleBot(token)
     path = '/opt/airflow/dags/pic/alert.jpg'
